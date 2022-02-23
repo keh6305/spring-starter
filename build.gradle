@@ -20,6 +20,8 @@ dependencies
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation group: 'org.springframework.boot', name: 'spring-boot-devtools'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	
+	compileOnly group: 'org.projectlombok', name: 'lombok'
 }
 
 tasks.named('test')
