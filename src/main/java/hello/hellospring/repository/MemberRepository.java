@@ -1,9 +1,9 @@
-package hello.hellospring.Repository;
+package hello.hellospring.repository;
 
 import java.util.List;
 import java.util.Optional;
 
-import hello.hellospring.Domain.Member;
+import hello.hellospring.domain.Member;
 
 public interface MemberRepository
 {

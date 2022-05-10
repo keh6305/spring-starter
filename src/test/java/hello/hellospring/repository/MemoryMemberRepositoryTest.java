@@ -1,4 +1,4 @@
-package hello.hellospring.Repository;
+package hello.hellospring.repository;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -9,7 +9,8 @@ import org.junit.jupiter.api.AfterEach;
 // import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import hello.hellospring.Domain.Member;
+import hello.hellospring.domain.Member;
+import hello.hellospring.repository.MemoryMemberRepository;
 
 class MemoryMemberRepositoryTest
 {
