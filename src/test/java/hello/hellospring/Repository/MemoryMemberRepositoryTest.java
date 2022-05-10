@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 
 import hello.hellospring.Domain.Member;
 
-public class MemoryMemberRepositoryTest
+class MemoryMemberRepositoryTest
 {
 	MemoryMemberRepository repository = new MemoryMemberRepository();
 	
