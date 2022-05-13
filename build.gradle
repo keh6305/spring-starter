@@ -20,8 +20,11 @@ dependencies
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation group: 'org.springframework.boot', name: 'spring-boot-devtools'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 	
 	compileOnly group: 'org.projectlombok', name: 'lombok'
+
+	runtimeOnly 'com.h2database:h2'
 }
 
 tasks.named('test')
